@@ -2,6 +2,7 @@
   <div id="app">
         <Header/>
         <Main/>
+        <BluBanner/>
         <Footer/>
     
   </div>
@@ -10,7 +11,8 @@
 <script>
 import Header from './components/Header.vue';
 import Main from './components/Main.vue';
-import Footer from './components/Footer.vue'
+import Footer from './components/Footer.vue';
+import BluBanner from './components/BluBanner.vue'
 
 
 export default {
@@ -18,6 +20,7 @@ export default {
   components: {
         Header,
         Main,
+        BluBanner,
         Footer
     
   }
